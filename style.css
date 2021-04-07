@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 html {
-	font-size: 10px;
+	font-size: 7px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
@@ -46,21 +46,24 @@ p {
 }
 
 .cta {
+    width: 220px;
+    height: 45px;
+    text-align: center;
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid crimson;
+    color: white;
+	background-color: #07b569;
 	font-size: 2rem;
-	text-transform: uppercase;
 	letter-spacing: .1rem;
 	margin-top: 30px;
 	transition: .3s ease;
 	transition-property: background-color, color;
 }
+
 .cta:hover {
 	color: white;
-	background-color: crimson;
+	background-color: transparent;
+    border: 2px solid #07b569;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -95,10 +98,10 @@ p {
 	padding: 0 10px;
 }
 #header .nav-list ul {
-	list-style: none;
+    font-size: 1rem;
 	position: absolute;
 	background-color: rgb(31, 30, 30);
-	width: 100vw;
+	width: 900px;
 	height: 100vh;
 	left: 100%;
 	top: 0;
@@ -114,12 +117,11 @@ p {
 	left: 0%;
 }
 #header .nav-list ul a {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	letter-spacing: .2rem;
 	text-decoration: none;
 	color: white;
-	text-transform: uppercase;
 	padding: 20px;
 	display: block;
 }
@@ -140,7 +142,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: #07b569;
 }
 #header .hamburger {
 	height: 60px;
@@ -200,7 +202,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+    background-image:  url(./img/bg-header.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -213,7 +215,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-image: linear-gradient(to right, #225b4c, #3f7288);
 	opacity: .7;
 	z-index: -1;
 }
@@ -225,6 +227,7 @@ p {
 }
 #hero h1 {
 	display: block;
+    text-align: center;
 	width: fit-content;
 	font-size: 4rem;
 	position: relative;
@@ -400,16 +403,18 @@ p {
 /* End Projects section */
 
 /* About Section */
+
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
+    height: 200px;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
 #about .col-left {
-	width: 250px;
-	height: 360px;
+	width: 500px;
+	height: 380px;
 }
 #about .col-right {
 	width: 100%;
@@ -442,7 +447,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px solid #07b569;
 	z-index: -1;
 }
 /* End About Section */
