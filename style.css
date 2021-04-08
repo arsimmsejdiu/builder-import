@@ -101,7 +101,7 @@ p {
     font-size: 1rem;
 	position: absolute;
 	background-color: rgb(31, 30, 30);
-	width: 900px;
+	width: 100vw;
 	height: 100vh;
 	left: 100%;
 	top: 0;
@@ -448,6 +448,7 @@ p {
 	height: 98%;
 	width: 98%;
 	border: 7px solid #07b569;
+	background-image: linear-gradient(to right, #225b4c, #3f7288);
 	z-index: -1;
 }
 /* End About Section */
