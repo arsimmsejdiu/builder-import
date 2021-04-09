@@ -439,6 +439,7 @@ p {
 	width: 100%;
 	position: relative;
 	border: 10px solid white;
+	background-image: linear-gradient(to right, #225b4c, #3f7288);
 }
 #about .col-left .about-img::after {
 	content: '';
@@ -448,7 +449,6 @@ p {
 	height: 98%;
 	width: 98%;
 	border: 7px solid #07b569;
-	background-image: linear-gradient(to right, #225b4c, #3f7288);
 	z-index: -1;
 }
 /* End About Section */
